@@ -4,11 +4,36 @@
              xmlns:local="clr-namespace:WelcomeToMyWorld"
              x:Class="WelcomeToMyWorld.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+    <ScrollView>
+        <StackLayout>
+            <!-- Place new controls here -->
+            <Entry x:Name="Username" Placeholder="username" />
+            <Entry x:Name="Password" Placeholder="password" IsPassword="True" />
+            <Entry x:Name="WorldId" Placeholder="worldId" />
+            <Entry x:Name="IntervalMinutes" Placeholder="interval minutes" />
+            <Button x:Name="ToggleWatch" Text="Watch!" Clicked="OnToggleWatch"/>
+            <Label x:Name="WorldName" />
+            <Label x:Name="WorldDescription" />
+            <Image x:Name="WorldImage" HeightRequest="200" />
+            <Grid HorizontalOptions="StartAndExpand">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+<!--                <Label Grid.Row="0" Text="Total Likes" />
+                <Label Grid.Row="0" Grid.Column="1" x:Name="TotalLikes" />
+                <Label Grid.Row="1" Text="Total Visits" />
+                <Label Grid.Row="1" Grid.Column="1" x:Name="TotalVisits" />-->
+                <Label Grid.Row="2" Text="Release Status" />
+                <Label Grid.Row="2" Grid.Column="1" x:Name="ReleaseStatus" />
+                <Label Grid.Row="3" Text="Instance Count" />
+                <Label Grid.Row="3" Grid.Column="1" x:Name="InstanceCount" />
+                <Label Grid.Row="4" Text="Occupants" />
+                <Label Grid.Row="4" Grid.Column="1" x:Name="Occupants" />
+                <Label Grid.Row="5" Text="" />
+                <Label Grid.Row="5" Grid.Column="1" x:Name="K" />
+            </Grid>
+        </StackLayout>
+    </ScrollView>
 
 </ContentPage>
