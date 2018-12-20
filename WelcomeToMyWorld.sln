@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WelcomeToMyWorld.Android", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WelcomeToMyWorld.UWP", "WelcomeToMyWorld\WelcomeToMyWorld.UWP\WelcomeToMyWorld.UWP.csproj", "{BD97F1B8-0230-459D-BB64-D5DB8A08A8BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WelcomeToMyWorld", "WelcomeToMyWorld\WelcomeToMyWorld\WelcomeToMyWorld.csproj", "{875CC406-7407-4C1A-94C2-2FDFADFE0EE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WelcomeToMyWorld", "WelcomeToMyWorld\WelcomeToMyWorld\WelcomeToMyWorld.csproj", "{875CC406-7407-4C1A-94C2-2FDFADFE0EE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
