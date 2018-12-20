@@ -9,3 +9,4 @@ build:
 artifacts:
   - path: WelcomeToMyWorld/WelcomeToMyWorld.UWP/AppPackages
   - path: WelcomeToMyWorld/WelcomeToMyWorld.UWP/bin/$(configuration)
+  - path: WelcomeToMyWorld/WelcomeToMyWorld.Android/obj/$(configuration)
