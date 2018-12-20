@@ -1,0 +1,9 @@
+version: 1.0.0.{build}
+image: Visual Studio 2017
+platform: Any CPU
+configuration: Release
+build:
+  project: WelcomeToMyWorld.sln
+artifacts:
+  - path: WelcomeToMyWorld/WelcomeToMyWorld.UWP/AppPackages
+  - path: WelcomeToMyWorld/WelcomeToMyWorld.UWP/bin/$(configuration)
