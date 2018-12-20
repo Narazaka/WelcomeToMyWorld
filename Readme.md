@@ -6,6 +6,8 @@ This watches your VRChat world and notify if someone comes!
 
 ![preview](scrn.jpg)
 
+![notify](notify.jpg)
+
 ## Install
 
 Download from [Releases](https://github.com/Narazaka/WelcomeToMyWorld/releases).
