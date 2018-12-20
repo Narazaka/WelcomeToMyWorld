@@ -24,6 +24,12 @@ install apk
 
 恐らく提供元不明のアプリのインストールを許可する設定が必要です。
 
+## Contribute
+
+自由にプルリクエスト送ったりforkしたりして下さい。
+
+気づかないときはTwitterに凸して下さい。
+
 ## License
 
 [Zlib License](https://narazaka.net/license/Zlib?2018)
