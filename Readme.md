@@ -22,9 +22,7 @@ extract zip and run `Add-AppDevPackage.ps1` on your powershell
 
 ### Android
 
-install apk
-
-恐らく提供元不明のアプリのインストールを許可する設定が必要です。
+[Google Play](https://play.google.com/store/apps/details?id=net.narazaka.welcome_to_my_world)
 
 ## Contribute
 
