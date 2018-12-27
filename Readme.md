@@ -2,7 +2,8 @@
 
 This watches your VRChat world and notify if someone comes!
 
-人が出入りしたりインスタンスが立ったり減ったりすると通知が来ます。
+VRChatの特定のワールドに人が出入りしたりインスタンスが立ったり減ったりすると通知が来ます。
+自分の作ったワールドに人が来たら飛んでいきたい！という想いを持つ人のために。
 
 Windows: **[Microsoft Store](https://www.microsoft.com/store/apps/9NRCZQMHK8TS)**
 
